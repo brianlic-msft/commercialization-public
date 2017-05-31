@@ -1,0 +1,27 @@
+<LayoutModificationTemplate 
+	xmlns="http://schemas.microsoft.com/Start/2014/LayoutModification" 
+	xmlns:defaultlayout="http://schemas.microsoft.com/Start/2014/FullDefaultLayout" 
+	xmlns:start="http://schemas.microsoft.com/Start/2014/StartLayout" Version="1">
+	<RequiredStartGroupsCollection>
+		<RequiredStartGroups Region="DE|US|JA">
+			<AppendGroup Name="Fabrikam Group 1">
+				<start:Tile AppUserModelID="Microsoft.Office.Word_8wekyb3d8bbwe!microsoft.word" Size="2x2" Row="0" Column="0"/>
+				<start:Tile AppUserModelID="Microsoft.Office.Excel_8wekyb3d8bbwe!microsoft.excel" Size="2x2" Row="0" Column="2"/>
+				<start:Tile AppUserModelID="Microsoft.Office.PowerPoint_8wekyb3d8bbwe!microsoft.pptim" Size="2x2" Row="0" Column="4"/>
+        		<start:Tile AppUserModelID="Microsoft.BingTranslator_8wekyb3d8bbwe!App" Size="2x2" Row="2" Column="0"/>
+		        <start:Tile AppUserModelID="Microsoft.WindowsAlarms_8wekyb3d8bbwe!App" Size="2x2" Row="2" Column="2"/>
+			</AppendGroup>
+			<AppendGroup Name="Fabrikam Group 2">
+				<start:DesktopApplicationTile DesktopApplicationID="Microsoft.Windows.Explorer" Size="2x2" Row="0" Column="0"/>
+				<start:DesktopApplicationTile DesktopApplicationID="http://www.bing.com/" Size="2x2" Row="0" Column="2"/>
+				<start:DesktopApplicationTile DesktopApplicationLinkPath="%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Accessories\Paint.lnk" Size="2x2" Row="0" Column="4"/>
+                <start:Tile AppUserModelID="Microsoft.BingSports_8wekyb3d8bbwe!AppexSports" Size="2x2" Row="2" Column="0"/>
+			</AppendGroup>
+		</RequiredStartGroups>
+	</RequiredStartGroupsCollection>
+    <AppendOfficeSuite/>
+	<TopMFUApps>
+		<Tile AppUserModelID="Microsoft.WindowsCalculator_8wekyb3d8bbwe!App"/>
+		<Tile AppUserModelID="Microsoft.BingTranslator_8wekyb3d8bbwe!App"/>
+	</TopMFUApps> 
+</LayoutModificationTemplate>

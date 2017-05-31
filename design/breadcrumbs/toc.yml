@@ -1,0 +1,31 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Design
+      tocHref: /windows-hardware/design/
+      topicHref: /windows-hardware/design/index
+      items:
+      - name: Compatibility
+        tocHref: /windows-hardware/design/compatibility/
+        topicHref: /windows-hardware/design/compatibility/index
+        items:
+        - name: 1703
+          tocHref: /windows-hardware/design/compatibility/1703/
+          topicHref: /windows-hardware/design/compatibility/1703/index
+      - name: Component Guidelines
+        tocHref: /windows-hardware/design/compatibility/
+        topicHref: /windows-hardware/design/compatibility/index
+      - name: Device Experiences
+        tocHref: /windows-hardware/design/device-experiences/
+        topicHref: /windows-hardware/design/device-experiences/device-experiences-scenarios
+      - name: Form Factors
+        tocHref: /windows-hardware/design/form-factors/
+        topicHref: /windows-hardware/design/form-factors/form-factors
+      - name: Minimum Requirements
+        tocHref: /windows-hardware/design/minimum/
+        topicHref: /windows-hardware/design/minimum/minimum-hardware-requirements-overview

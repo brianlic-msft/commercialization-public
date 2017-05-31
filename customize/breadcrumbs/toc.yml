@@ -1,0 +1,31 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Customize
+      tocHref: /windows-hardware/customize/
+      topicHref: /windows-hardware/customize/index
+      items:
+      - name: Desktop
+        tocHref: /windows-hardware/customize/desktop/
+        topicHref: /windows-hardware/customize/desktop/desktop-customizations-portal
+        items:
+        - name: WSIM
+          tocHref: /windows-hardware/customize/desktop/wsim/
+          topicHref: /windows-hardware/customize/desktop/wsim/windows-system-image-manager-technical-reference
+        - name: Unattend
+          tocHref: /windows-hardware/customize/desktop/unattend/
+          topicHref: /windows-hardware/customize/desktop/unattend/index
+      - name: Enterprise
+        tocHref: /windows-hardware/customize/enterprise/
+        topicHref: /windows-hardware/customize/enterprise/enterprise-custom-portal
+      - name: Mobile
+        tocHref: /windows-hardware/customize/mobile/
+        topicHref: /windows-hardware/customize/mobile/windows-10-mobile-customizations-portal
+      - name: Preinstall
+        tocHref: /windows-hardware/customize/preinstall/
+        topicHref: /windows-hardware/customize/preinstall/preinstall-apps

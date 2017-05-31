@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Oobe.xml sample file for the region: Catalonia, Spain 
+     For more info, see Configure Oobe.xml, 
+     http://go.microsoft.com/fwlink/?LinkId=317086 -->
+<FirstExperience>
+  <oobe>
+    <oem>
+      <name>Fabrikam</name>
+         <!-- Name of the manufacturer -->
+
+      <eulafilename>fabrikam_eula.rtf</eulafilename> 
+         <!-- If a relative path is used, it will start from the same folder as Oobe.xml.
+              Example: %WINDIR%\System32\Oobe\Info\Default\1031\fabrikam_eula.rtf  -->
+    </oem>
+
+  <defaults>
+    <!-- Set the defaults for the language, location, locale, keyboard, and timezone -->
+    <language>1027</language>
+	  <!-- App language.  
+           See Available Language Packs for Windows, Language decimal identifier
+	       http://go.microsoft.com/fwlink/?LinkId=206620 -->
+
+    <location>217</location>
+	  <!-- Country or region where the PC is deployed. 
+	       See Table of Geographical Locations, Geographic location identifier (decimal)
+	       http://go.microsoft.com/fwlink/?LinkId=141804 -->
+
+    <locale>1034</locale>
+	  <!-- PC locale. Determines sorting, time/date formatting, and keyboards/IMEs.
+	       See Default Input Locales for Windows Language Packs, keyboard decimal identifier:
+	       http://go.microsoft.com/fwlink/?LinkId=325349 -->
+
+    <keyboard>0000080a</keyboard>
+	  <!--Keyboard layout.
+	      Use the keyboard value list in the registry under 
+	      HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Keyboard Layouts,
+	      or see Windows Language Pack Default Values, keyboard pair:
+	      http://go.microsoft.com/fwlink/p/?LinkId=262262 -->
+
+    <timezone>Central Europe Daylight Time</timezone>
+	  <!-- Use the time zone list in the registry under 
+	       HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Time Zones -->
+
+    <adjustForDST>true</adjustForDST>
+	  <!-- Use this to adjust the time for Daylight Savings Time -->
+
+	</defaults>
+  </oobe>
+</FirstExperience>

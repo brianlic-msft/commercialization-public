@@ -1,0 +1,21 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Service
+      tocHref: /windows-hardware/service/
+      topicHref: /windows-hardware/service/index
+      items:
+      - name: Desktop
+        tocHref: /windows-hardware/service/desktop/
+        topicHref: /windows-hardware/service/desktop/resetting-the-pc
+      - name: IoT
+        tocHref: /windows-hardware/service/iot/
+        topicHref: /windows-hardware/service/iot/index
+      - name: Mobile
+        tocHref: /windows-hardware/service/mobile/
+        topicHref: /windows-hardware/service/mobile/index

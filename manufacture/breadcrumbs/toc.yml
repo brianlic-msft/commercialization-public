@@ -1,0 +1,21 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Manufacture
+      tocHref: /windows-hardware/manufacture/
+      topicHref: /windows-hardware/manufacture/index
+      items:
+      - name: Desktop
+        tocHref: /windows-hardware/manufacture/desktop/
+        topicHref: /windows-hardware/manufacture/desktop/index
+      - name: IoT
+        tocHref: /windows-hardware/manufacture/iot/
+        topicHref: /windows-hardware/manufacture/iot/index
+      - name: Mobile
+        tocHref: /windows-hardware/manufacture/mobile/
+        topicHref: /windows-hardware/manufacture/mobile/index

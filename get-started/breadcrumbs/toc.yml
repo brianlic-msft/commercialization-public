@@ -1,0 +1,11 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Getting Started
+      tocHref: /windows-hardware/get-started/
+      topicHref: /windows-hardware/get-started/index

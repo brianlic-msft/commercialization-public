@@ -1,0 +1,24 @@
+- name: Docs
+  tocHref: /
+  topicHref: /
+  items:
+  - name: Windows Hardware
+    tocHref: /windows-hardware/
+    topicHref: "https://docs.microsoft.com/en-us/windows/#pivot=hardware-dev"
+    items:
+    - name: Test
+      tocHref: /windows-hardware/test/
+      topicHref: /windows-hardware/test/index
+      items:
+      - name: Assessments
+        tocHref: /windows-hardware/test/assessments/
+        topicHref: /windows-hardware/test/assessments/index
+      - name: Mobile Tracing
+        tocHref: /windows-hardware/test/mobile-tracing/
+        topicHref: /windows-hardware/test/mobile-tracing/index
+      - name: Windows Engineering Guides
+        tocHref: /windows-hardware/test/weg/
+        topicHref: /windows-hardware/test/weg/index
+      - name: Windows Performance Toolkit
+        tocHref: /windows-hardware/test/wpt/
+        topicHref: /windows-hardware/test/wpt/index

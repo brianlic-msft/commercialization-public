@@ -1,3 +1,5 @@
-# microsoft.docs
+# Windows Hardware Commercialization
 
-TODO: Create a file called LICENSE (not LICENSE.TXT, LICENSE.md, etc.)…
+Documentation for Windows Hardware commercialization for partners
+
+For support, contact [Windows Open Publishing Support](winopsup@microsoft.com). 

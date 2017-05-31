@@ -1,0 +1,7 @@
+# [Get started with Windows 10](index.md)
+## [What's new in Windows 10](what-s-new-in-windows.md)
+## [Kits and tools overview](kits-and-tools-overview.md)
+## [What's new in Windows ADK and ADK tools](what-s-new-in-kits-and-tools.md)
+## [Download and install the Windows ADK](adk-install.md)
+### [Install the Windows ADK offline](adk-offline-install.md)
+### [Windows ADK silent install](adk-silent-install.md)

@@ -1,0 +1,38 @@
+{
+  "build": {
+    "content": [
+      {
+          "files": ["**/**.md", "**/**.yml"],
+		  "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+	    "uhfHeaderId": "MSDocsHeader-WinHW",
+        "breadcrumb_path": "/windows-hardware/manufacture/breadcrumbs/toc.json"
+	},
+    "fileMetadata": {},
+    "template": [],
+    "dest": "oem-manufacture"
+  }
+}
