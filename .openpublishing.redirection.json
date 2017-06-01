@@ -1109,6 +1109,21 @@
         "source_path": "customize/mdm/wmi-providers-supported-in-windows.md", 
         "redirect_url": "https://docs.microsoft.com/windows/client-management/mdm/wmi-providers-supported-in-windows", 
         "redirect_document_id": true 
+    },
+    {   
+        "source_path": "customize/enterprise/clear-assignedaccess.md", 
+        "redirect_url": "https://technet.microsoft.com/itpro/powershell/windows/assignedaccess/clear-assignedaccess", 
+        "redirect_document_id": true 
+    },
+    {   
+        "source_path": "customize/enterprise/get-assignedaccess.md", 
+        "redirect_url": "https://technet.microsoft.com/itpro/powershell/windows/assignedaccess/get-assignedaccess", 
+        "redirect_document_id": true 
+    },
+    {   
+        "source_path": "customize/enterprise/set-assignedaccess.md", 
+        "redirect_url": "https://technet.microsoft.com/itpro/powershell/windows/assignedaccess/set-assignedaccess", 
+        "redirect_document_id": true 
     }
   ] 
 }
