@@ -1287,7 +1287,7 @@ Adding Windows Update KB packages can add significantly to the size of the disk.
 2.	From an elevated command prompt, run the following commands:
 
     ```syntax
-    dism.exe /online /cleanup-image /startcomponent
+    dism.exe /online /cleanup-image /startcomponentcleanup
     ```
     
 3.	Restart the device.
